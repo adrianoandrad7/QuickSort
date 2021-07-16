@@ -8,17 +8,25 @@
  *
  * @author adria
  */
-import java.util.Arrays;
+  import java.util.Arrays;
 
-public class QuickSort {
+public class QuikSort {
+
+        
+
+
+
 //teste
     public static void main(String[] args) {
-
-        int[] vetor = {5, 9, 7, 4, 6, 1, 2, 3, 10, -1,};
-
-        System.out.println(Arrays.toString(vetor));
-        quickSort(vetor, 0, vetor.length - 1);
-        System.out.println(Arrays.toString(vetor));
+        int[] vetor1 = {10 ,9 ,7 ,6 ,5 ,4 ,3 ,2 ,1 ,-1};
+        
+        quickSort(vetor1, 0, vetor1.length - 1);
+        System.out.println("Decrescente:");
+        System.out.println("Tempo de execução em nanosegundo: " + System.nanoTime() );
+        System.out.println(Arrays.toString(vetor1));
+        
+        
+        
 
     }
 //implementaçao quick
