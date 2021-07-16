@@ -22,9 +22,6 @@ public class QuickSort {
         System.out.println("Tempo de execução em nanosegundo: " + System.nanoTime() );
         System.out.println(Arrays.toString(vetor1));
         
-        
-        
-
     }
 //implementaçao quick
 
